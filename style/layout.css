@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+header{
+
+    display: flex;
+    justify-content:space-between;
+
+    background-color:#800020;
+    padding: 4%;
+
+
+}
+
+body{
+
+    background-color: #1c1c1c;
+
+}
+
+
+.title{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.title img {
+    width: 100px;
+    height: auto;
+}
+
+.title h1 {
+    margin: 0;
+}
