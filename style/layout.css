@@ -10,7 +10,7 @@ header{
     justify-content:space-between;
 
     background-color:#800020;
-    padding: 4%;
+    padding: 2.5%;
 
 
 }
@@ -34,8 +34,17 @@ body{
 .title img {
     width: 100px;
     height: auto;
+    transform: rotate(115deg);
 }
 
 .title h1 {
     margin: 0;
 }
+
+.main-content{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+

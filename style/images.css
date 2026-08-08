@@ -1,0 +1,12 @@
+.card{
+
+    width: 60%;
+    border: solid 2px #f7f7ff;
+}
+
+.long-card {
+    width: 90%;
+    border: solid 2px #f7f7ff;
+    display: block;
+    margin: auto;
+}
