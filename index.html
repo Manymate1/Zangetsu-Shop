@@ -3,18 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Zangetsu Shop</title>
 
     <link rel="stylesheet" href="style/layout.css">
     <link rel="stylesheet" href="style/content.css">
     <link rel="stylesheet" href="style/images.css">
-    <link rel="icon" href="img/Bleach.png">
+    <link rel="icon" href="img/Icon.png">
 
 </head>
 <body>
     
-    <!-- Cabecera -->
-
     <header>
 
         <div class="title">
@@ -26,11 +24,30 @@
 
         <nav class="header-nav">
         
-            <p>Tienda | Comunidad | Biblioteca</p>
+            <p id="prueba">
+                
+                <a href="index.html" class="nav-p"> Tienda </a>    
+
+                    |
+
+                    Comunidad
+                    
+                    |
+                    
+                    Biblioteca
+                
+            </p>
 
             <p>
-                <img src="img/futa.jpeg" alt="Perfil" class="profile">
-                Perfil
+                
+                <a href="profile.html">
+                
+                    <img src="img/futa.jpeg" alt="Perfil" class="profile">
+                    
+                    Perfil
+
+                </a>
+
             </p>
 
             <p>Buscar en la tienda</p>
@@ -45,31 +62,46 @@
 
     <div class="main-content">
 
-        <section class="content">
+        <section class="content grid-content">
+
+            <h2>¡Juegos destacados!</h2>
 
             <article>
 
-                <img src="img/persona5.webp" alt="Persona 5 Royal" class="card">
+                <img src="img/persona5.webp" alt="Persona 5 Royal" class="featured-card">
 
-                <h5>Persona 5 royal</h5>
-                <p>67.000 Cop</p> 
+                <div class="prices">
+
+                    <h5>Persona 5 royal</h5>
+                    <p>67.000 Cop</p> 
+
+                </div>
 
             </article>
 
             <article>
 
-                <img src="img/persona3.jpg" alt="Persona 3 Reload" class="card">
-                
-                <h5>Persona 3 Reload</h5>
-                <p>70.000</p>
+                <img src="img/persona3.jpg" alt="Persona 3 Reload" class="featured-card">
+
+                <div class="prices">
+
+                    <h5>Persona 3 Reload</h5>
+                    <p>70.000 Cop</p>
+
+                </div>
 
             </article>
 
-            <article>
+            <article class="featured-double-card">
 
-                <img src="img/bloodborne.webp" alt="Bloodborne" class="card">
-                <h5>Bloodborne</h5>
-                <p>100.000</p>
+                <img src="img/bloodborne.webp" alt="Bloodborne" class="featured-card">
+
+                <div class="prices">
+
+                    <h5>Bloodborne</h5>
+                    <p>100.000 Cop</p>
+
+                </div>
 
             </article>
 
@@ -77,13 +109,58 @@
 
         <section class="content">
 
+            <h3>¡Preventa ahora!</h3>
+
             <article>
 
-                <img src="img/persona6.jpg" alt="Persona 6" class="long-card" class="centro">      
-                <h2>Persona 6</h2>
-                <p>150.000</p>
+                <img src="img/persona6.jpg" alt="Persona 6" class="long-card">      
+
+                <div class="prices">
+
+                    <h2>Persona 6</h2>
+                    <p>150.000 Cop</p>
+
+                </div>
 
             </article>
+
+        </section>
+
+        <section class="content">
+
+            <h3>Juegos deportivos</h3>
+
+            <article>
+
+                <img src="img/Fc26.webp" alt="Fifa 26" class="card">
+
+                <div class="prices">
+                    
+                    <h5>FC 26</h5>
+                    <p>120.000 Cop</p>
+
+                </div>
+
+            </article>
+
+            <h3>Juegos FPS</h3>
+
+            <article>
+
+            <img src="img/COD.jpg" alt="Call Of Duty Black Ops 3" class="card">
+
+            <div class="prices">
+
+                <h5>Call Of Duty Black Ops 3</h5>
+                <p>105.000 Cop</p>
+
+            </div>
+
+            </article>
+
+        </section>
+
+    </div>
 
     </main>
 

@@ -1,12 +1,26 @@
 .card{
 
-    width: 60%;
+    width: 65%;
     border: solid 2px #f7f7ff;
+    margin:auto;
 }
 
 .long-card {
-    width: 90%;
+    width: 76%;
     border: solid 2px #f7f7ff;
-    display: block;
     margin: auto;
+}
+
+.featured-card{
+
+    width: 100%;
+    border: solid 2px #f7f7ff;
+    margin:auto;
+
+}
+
+.featured-double-card{
+
+    grid-column: span 2;
+
 }
