@@ -32,3 +32,12 @@
 .grid-content h2 {
     grid-column: 1 / -1;
 }
+
+/*    Profile contents  */
+
+.profile-content{
+
+    width: 25%;
+
+
+}

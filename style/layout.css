@@ -15,7 +15,7 @@ header{
     justify-content: space-between;
 
     background-color: #800020;
-    padding: 2.5%;
+
 
     border: 2px solid #5d0118;
     color: #FF6700;
@@ -24,20 +24,13 @@ header{
 .title{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     gap: 15px;
 }
 
 .title img{
-    width: 100px;
-    height: auto;
-    transform: rotate(115deg);
+    width: 50%;
 }
-
-.title h1 {
-    margin: 0;
-}
-
 /* Navigator */
 
 a{
@@ -77,3 +70,38 @@ a:visited{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+
+/*    Profile Layout   */
+
+.profile-layout{
+
+    display: flex;
+    align-items: center;
+}
+
+.column{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.profile-field-flex{
+
+    display:flex;
+    flex-direction: column;
+    gap: 60px;
+
+}
+
+.profile-field{
+
+    gap: 5px;
+    align-items: center;
+
+    background-color: #0B0f14;
+    border: solid 0.8px #3df2e0;
+
+}
+
