@@ -5,7 +5,13 @@
 }
 
 body{
-    background-color: #1c1c1c;
+
+    background-image: url("../img/background.avif");
+
+    background-repeat:no-repeat;
+
+    background-size:cover;
+
 }
 
 /* Header content */
