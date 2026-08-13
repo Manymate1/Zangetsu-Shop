@@ -17,27 +17,40 @@ body{
 /* Header content */
 
 header{
+
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 
     background-color: #800020;
 
 
     border: 2px solid #5d0118;
-    color: #FF6700;
-}
 
-.title{
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    gap: 15px;
+    color: #FF6700;
+
 }
 
 .title img{
-    width: 50%;
+    width: 30%;
 }
+
 /* Navigator */
+
+.main-nav ul{
+    
+    display: flex;
+    gap: 25px;
+
+}
+
+ul{ 
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
 
 a{
     text-decoration: none;
@@ -53,17 +66,6 @@ a:visited{
     object-fit: cover;
 
     border-radius: 50%;
-}
-
-.header-nav{
-    display: flex;
-    gap: 15px;
-}
-
-.header-nav p {
-    display: flex;
-    align-items: center;
-    gap: 15px;
 }
 
 /* Fonts */
@@ -103,7 +105,7 @@ a:visited{
 
 .profile-field{
 
-    gap: 5px;
+    gap: 10px;
     align-items: center;
 
     background-color: #0B0f14;
