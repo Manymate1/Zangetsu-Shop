@@ -68,6 +68,19 @@ a:visited{
     border-radius: 50%;
 }
 
+/* Second Nav */
+
+.secondary-nav{
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+
+    background-color: #1c1c1c;
+    border: solid 2px #393939;
+
+}
+
 /* Fonts */
 
 .prices{
