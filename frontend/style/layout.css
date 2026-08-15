@@ -26,8 +26,7 @@ header{
 
 
     border: 2px solid #5d0118;
-
-    color: #FF6700;
+;
 
 }
 
@@ -44,6 +43,18 @@ header{
 
 }
 
+.main-nav a{
+
+    color: white;
+
+}
+
+.main-nav a:hover{
+
+    color: aqua;
+
+}
+
 ul{ 
     
     list-style: none;
@@ -56,9 +67,7 @@ a{
     text-decoration: none;
 }
 
-a:visited{
-    color: #FF6700;
-}
+
 
 .profile-icon{
     width: 50px;
@@ -76,8 +85,38 @@ a:visited{
     justify-content: space-evenly;
     gap: 100px;
 
-    background-color: #1c1c1c;
-    border: solid 2px #393939;
+}
+
+.content-nav{
+
+    display: flex;
+    justify-content: center;
+
+    margin: 10px auto;
+    width: 50%;
+
+    background-color: rgb(199, 30, 97);
+
+    padding: 5px;
+
+    border: 3px solid #410029;
+    border-radius: 5px;
+
+    text-align: center;
+
+    color: #f7f7ff;
+    text-shadow: 0px 0px 3px white;
+}
+
+.content-nav a{
+
+    color: whitesmoke;
+
+}
+
+.content-nav a:hover{
+
+    color:aqua;
 
 }
 
