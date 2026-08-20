@@ -31,7 +31,7 @@
 .video-card{
 
     width: 65%;
-    border: solid 2px #f7f7ff;
+    border: solid 2px #b70c0c;
     
 }
 
@@ -49,5 +49,11 @@
 .profile-content-icon{
 
     width: 55%;
+
+}
+
+.logo{
+
+    width:85%;
 
 }
