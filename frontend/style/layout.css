@@ -41,7 +41,7 @@ header{
 .main-nav ul{
     
     display: flex;
-    gap: 25px;
+    gap: 15px;
     
 
 }
@@ -50,6 +50,8 @@ header{
 
     margin: auto;
     background-color: rgba(0, 0, 0, 0.386);
+    border: 1.5px solid black;
+    padding: 2px;
 
 }
 
@@ -120,6 +122,7 @@ a{
     color: gold;
     text-shadow: 0px 0px 3px rgb(0, 0, 0);
 }
+
 
 .content-nav a{
 
@@ -210,7 +213,7 @@ a{
 .description{
 
     margin: 15px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 
     text-shadow:0px 0px 15px gold;
     color: bisque;
@@ -242,3 +245,19 @@ a{
     border: none;   
 }
 
+.category-title{
+
+    color:gold;
+    text-shadow: 0px 0px 10px gold;
+
+}
+
+.special-title{
+
+    background: linear-gradient(to right, #ff0040 ,rgb(255, 0, 140),rgb(125, 0, 193), rgb(2, 0, 128), #410029);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+
+}
