@@ -3,10 +3,11 @@
     width: 65%;
     border: solid 2px #f7f7ff;
     margin:auto;
+    
 }
 
 .long-card {
-    width: 76%;
+    width: 65%;
     border: solid 2px #f7f7ff;
     margin: auto;
 }
@@ -24,6 +25,16 @@
     grid-column: span 2;
 
 }
+
+/* Video Elements */
+
+.video-card{
+
+    width: 65%;
+    border: solid 2px #f7f7ff;
+    
+}
+
 
 /*    Profile elements    */
 

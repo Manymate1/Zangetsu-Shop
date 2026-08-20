@@ -22,8 +22,10 @@ header{
     justify-content: space-around;
     align-items: center;
 
-    background-color: #800020;
 
+    background-image: url(../img/Logos/nav-banner.jpg);
+    background-size:cover ;
+    background-position: center;
 
     border: 2px solid #5d0118;
 ;
@@ -36,16 +38,27 @@ header{
 
 /* Navigator */
 
+
+
 .main-nav ul{
     
     display: flex;
     gap: 25px;
+    
+
+}
+
+.main-nav li {
+
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.386);
 
 }
 
 .main-nav a{
 
-    color: white;
+    color: gold;
+    
 
 }
 
@@ -95,7 +108,9 @@ a{
     margin: 10px auto;
     width: 50%;
 
-    background-color: rgb(199, 30, 97);
+    background-image: url(../img/Logos/nav-banner2.jpg);
+    background-position: center;
+    background-size: cover;
 
     padding: 5px;
 
@@ -104,13 +119,14 @@ a{
 
     text-align: center;
 
-    color: #f7f7ff;
-    text-shadow: 0px 0px 3px white;
+    color: gold;
+    text-shadow: 0px 0px 3px rgb(0, 0, 0);
 }
 
 .content-nav a{
 
-    color: whitesmoke;
+    color: gold;
+    background-color: rgba(0, 0, 0, 0.408);
 
 }
 
@@ -119,6 +135,7 @@ a{
     color:aqua;
 
 }
+
 
 /* Fonts */
 
@@ -164,4 +181,29 @@ a{
     border: solid 0.8px #3df2e0;
 
 }
+
+/* RPG PAGE */
+
+.rpg-content{
+
+    width: 65%;
+    margin: 15px auto;
+
+    background-color: rgb(143, 0, 45);
+
+    padding: 15px;
+
+    border: 3px solid #2f2b2b;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #1c1c1c;
+
+    text-align: center;
+    color: #f7f7ff;
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+}
+
 
