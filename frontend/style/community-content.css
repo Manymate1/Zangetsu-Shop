@@ -1,0 +1,80 @@
+.profile-content-icon{
+
+    width: 55%;
+
+}
+
+.logo{
+
+    width:85%;
+
+}
+
+#palworld-logo{
+
+    margin: 60px auto;
+
+}
+
+.community-logo{
+
+    width: 65%;
+
+}
+
+.community-profile{
+
+width: 12%;
+
+}
+
+.community-profile-show{
+
+    display: flex;
+    justify-content:left;
+
+
+}
+
+.palworld-content{
+
+    width: 100%;
+    background-image: url(../img/game/palworld3.jpg);
+    background-size: cover;
+
+}
+
+.palword-community-content{
+
+    background-image: url(../img/game/palworld-1.webp);
+
+}
+
+.persona-content{
+
+    width: 100%;
+    background-image: url(../img/game/Personabanner.avif);
+    background-size: cover;
+}
+
+.persona-community-content{
+
+    background-image: url(../img/game/persona5bg.jpg);
+    background-size: cover;
+
+}
+.elden-community-content{
+
+    background-image: url(../img/game/elden4.jpg) ;
+    background-size: cover;
+
+}
+
+.elden-content{
+
+    width: 100%;
+    background-image: url(../img/game/eldenbanner.avif);
+    background-size: cover;
+
+}
+
