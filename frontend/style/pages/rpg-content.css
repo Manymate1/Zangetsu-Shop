@@ -1,0 +1,11 @@
+
+.special-title{
+
+    background: linear-gradient(to right, #ff0040 ,rgb(255, 0, 140),rgb(125, 0, 193), rgb(2, 0, 128), #410029);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+
+}
+

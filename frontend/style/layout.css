@@ -185,57 +185,6 @@ a{
 
 }
 
-/* RPG PAGE */
-
-.rpg-content{
-
-    width: 80%;
-    margin: 15px auto;
-
-    background-color: rgb(143, 0, 45);
-
-    padding: 15px;
-
-    border: 3px solid #2f2b2b;
-    border-radius: 15px;
-    box-shadow: 0px 0px 10px #1c1c1c;
-
-    text-align: center;
-    color: #f7f7ff;
-
-    display: flex;
-
-    justify-content: space-evenly;
-
-
-}
-
-.description{
-
-    margin: 15px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-
-    text-shadow:0px 0px 15px gold;
-    color: bisque;
-
-}
-
-.category-grid{
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
-    margin-top: 5%;
-
-}
-
-.grid{
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-}
-
 .divider {
 
     width: 100%;
@@ -245,19 +194,3 @@ a{
     border: none;   
 }
 
-.category-title{
-
-    color:gold;
-    text-shadow: 0px 0px 10px gold;
-
-}
-
-.special-title{
-
-    background: linear-gradient(to right, #ff0040 ,rgb(255, 0, 140),rgb(125, 0, 193), rgb(2, 0, 128), #410029);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    display: inline-block;
-
-}

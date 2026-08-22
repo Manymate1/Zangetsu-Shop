@@ -1,0 +1,76 @@
+.category-card{
+
+    width: 80%;
+    margin: 15px auto;
+
+    background-color: rgb(143, 0, 45);
+
+    padding: 15px;
+
+    border: 3px solid #2f2b2b;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #1c1c1c;
+
+    text-align: center;
+    color: #f7f7ff;
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+
+}
+
+.category-title{
+
+    color:gold;
+    text-shadow: 0px 0px 10px gold;
+
+}
+
+.category-content{
+
+    width: 40%;
+    background-image: url(../../img/Logos/Survivalbanner.jpg);
+    background-size:cover ;
+    background-position: center;
+
+    color: gold;
+    text-shadow: 0px 0px 10px black;
+
+}
+
+.category-grid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 5%;
+
+}
+
+.grid{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.description{
+
+    margin: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    text-shadow:0px 0px 15px gold;
+    color: bisque;
+
+}
+
+.category-prices{
+
+    background-color:#2f2b2bd8 ;
+    width: 30%;
+    margin: auto;
+    backdrop-filter: blur;
+
+}
